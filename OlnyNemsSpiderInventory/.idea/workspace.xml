@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4162ede-2689-4b18-9e50-3dfa7f6d2383" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/NemsSpider$mogno_to_mysql.coverage" NAME="mogno_to_mysql Coverage Results" MODIFIED="1563515307996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NemsSpider$login.coverage" NAME="login Coverage Results" MODIFIED="1565075444603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NemsSpider/utils" />
+    <SUITE FILE_PATH="coverage/NemsSpider$tests.coverage" NAME="tests Coverage Results" MODIFIED="1562062028317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NemsSpider$run.coverage" NAME="run Coverage Results" MODIFIED="1565075459728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NemsSpider$run_dec.coverage" NAME="run_dec Coverage Results" MODIFIED="1562989575640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1399833975">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="121" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="121" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="log" value="5" />
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1373295769">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bat" value="1" />
+          <entry key="log" value="3" />
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="bat" value="8" />
+          <entry key="py" value="99" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="99" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1286711596">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="log" value="1" />
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="71" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="71" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NemsSpider/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="211" column="35" selection-start-line="211" selection-start-column="35" selection-end-line="211" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NemsSpider/nems_join.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="261" column="42" selection-start-line="261" selection-start-column="42" selection-end-line="261" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/task.2019-10-13.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-213710" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NemsSpider/utils/aniusql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="189" column="42" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="42" />
+              <folding>
+                <element signature="e#215#408#0" />
+                <element signature="e#243#312#0" />
+                <element signature="e#345#408#0" />
+                <element signature="e#473#613#0" />
+                <element signature="e#673#832#0" />
+                <element signature="e#879#930#0" />
+                <element signature="e#970#2162#0" />
+                <element signature="e#1067#2091#0" />
+                <element signature="e#1071#1600#0" />
+                <element signature="e#1634#1806#0" />
+                <element signature="e#1843#2091#0" />
+                <element signature="e#2195#2296#0" />
+                <element signature="e#2350#2788#0" />
+                <element signature="e#2867#4046#0" />
+                <element signature="e#2867#2969#1" />
+                <element signature="e#3179#3605#0" />
+                <element signature="e#3314#3605#0" />
+                <element signature="e#3434#3605#0" />
+                <element signature="e#4079#4083#0" />
+                <element signature="e#4171#4427#1" />
+                <element signature="e#4631#5837#0" />
+                <element signature="e#4715#5837#0" />
+                <element signature="e#4752#5059#0" />
+                <element signature="e#5102#5837#0" />
+                <element signature="e#5135#5462#0" />
+                <element signature="e#5513#5837#0" />
+                <element signature="e#6003#6356#0" />
+                <element signature="e#6205#6356#0" />
+                <element signature="e#6383#6527#0" />
+                <element signature="e#7106#7328#0" />
+                <element signature="e#7384#9197#0" />
+                <element signature="e#7506#9007#0" />
+                <element signature="e#7603#9007#0" />
+                <element signature="e#7708#8077#0" />
+                <element signature="e#7744#7989#0" />
+                <element signature="e#8120#9007#0" />
+                <element signature="e#8155#8548#0" />
+                <element signature="e#8195#8452#0" />
+                <element signature="e#8599#9007#0" />
+                <element signature="e#8639#8906#0" />
+                <element signature="e#9243#9562#0" />
+                <element signature="e#9424#9543#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NemsSpider/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="67" column="48" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="48" />
+              <folding>
+                <element signature="n#!!doc" />
+                <element signature="e#882#948#0" />
+                <element signature="e#1087#1139#0" />
+                <element signature="e#1947#1977#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-656">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+              <folding>
+                <element signature="e#125#140#0" expanded="true" />
+                <element signature="e#3145#4033#0" />
+                <element signature="e#4078#4968#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NemsSpider/spiders/dec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="152" column="102" lean-forward="true" selection-start-line="152" selection-start-column="77" selection-end-line="152" selection-end-column="102" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NemsSpider/spiders/dw_dec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="152" column="106" selection-start-line="152" selection-start-column="106" selection-end-line="152" selection-end-column="106" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+                <element signature="e#992#1413#0" />
+                <element signature="e#1497#1997#0" />
+                <element signature="e#2174#2498#0" />
+                <element signature="e#2990#3207#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_nems.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-26">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_dec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3300">
+              <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+              <folding>
+                <element signature="e#125#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EntQualifTypeCode</find>
+      <find>entQualifTypeCode</find>
+      <find>GoodsNo</find>
+      <find>ConsigneeEnam</find>
+      <find>PromiseItmes</find>
+      <find>process_main</find>
+      <find>is_update</find>
+      <find>应该获取的总数</find>
+      <find>DestinationCountry</find>
+      <find>first_week_day</find>
+      <find>cusTradeCountry</find>
+      <find>daemon</find>
+      <find>已更新报关单数据</find>
+      <find>is_today</find>
+      <find>data.get(&quot;inputDateStart&quot;)</find>
+      <find>预</find>
+      <find>SpiderNemsInvtListType1</find>
+      <find>DEC_USERNAME</find>
+      <find>dec</find>
+      <find>print</find>
+      <find>print_exc</find>
+      <find>20190000277008231</find>
+      <find>E20190000277133539</find>
+      <find>.dw_dec</find>
+      <find>log.error</find>
+      <find>I20190000277821555</find>
+      <find>log</find>
+      <find>jibao</find>
+      <find>obj.category</find>
+      <find>alvin yx</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>DEC_PASSWD</replace>
+      <replace>DEC_USERNAME</replace>
+      <replace>NEMS_USERNAME</replace>
+      <replace>NEMS_PASSWD</replace>
+      <replace>first_post_data.get(&quot;updateTime&quot;)</replace>
+      <replace>ScrapyNemsInvtListType</replace>
+      <replace>song bo</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NemsSpider/utils/redis_app.py" />
+        <option value="$PROJECT_DIR$/logs/task.2019-06-27.log" />
+        <option value="$PROJECT_DIR$/logs/task.2019-06-28.log" />
+        <option value="$PROJECT_DIR$/logs/task.2019-07-01.log" />
+        <option value="$PROJECT_DIR$/NemsSpider/utils/log.py" />
+        <option value="$PROJECT_DIR$/tests.py" />
+        <option value="$PROJECT_DIR$/NemsSpider/middlewares.py" />
+        <option value="$PROJECT_DIR$/mogno_to_mysql.py" />
+        <option value="$PROJECT_DIR$/NemsSpider/items.py" />
+        <option value="$PROJECT_DIR$/NemsSpider/utils/mysql_data.py" />
+        <option value="$PROJECT_DIR$/NemsSpider/utils/login.py" />
+        <option value="$PROJECT_DIR$/run_dec.py" />
+        <option value="$PROJECT_DIR$/NemsSpider/utils/aniusql.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/NemsSpider/settings.py" />
+        <option value="$PROJECT_DIR$/run_nems.py" />
+        <option value="$PROJECT_DIR$/NemsSpider/spiders/nems.py" />
+        <option value="$PROJECT_DIR$/run.bat" />
+        <option value="$PROJECT_DIR$/NemsSpider/pipelines.py" />
+        <option value="$PROJECT_DIR$/NemsSpider/nems_join.py" />
+        <option value="$PROJECT_DIR$/NemsSpider/spiders/dec.py" />
+        <option value="$PROJECT_DIR$/NemsSpider/spiders/dw_dec.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="1" />
+    <option name="width" value="1024" />
+    <option name="height" value="736" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OlnyNemsSpiderInventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OlnyNemsSpiderInventory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlnyNemsSpiderInventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OlnyNemsSpiderInventory" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlnyNemsSpiderInventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OlnyNemsSpiderInventory" type="462c0819:PsiDirectoryNode" />
+              <item name="NemsSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlnyNemsSpiderInventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OlnyNemsSpiderInventory" type="462c0819:PsiDirectoryNode" />
+              <item name="NemsSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\NemsSpider\NemsSpider\spiders" />
+      <recent name="E:\倍通\NemsSpider" />
+      <recent name="E:\workspace\NemsSpider\NemsSpider\utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\NemsSpider" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NemsSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NemsSpider/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NemsSpider/utils/login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mogno_to_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NemsSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mogno_to_mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NemsSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_dec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NemsSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_dec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NemsSpider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.login" />
+      <item itemvalue="Python.mogno_to_mysql" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.run_dec" />
+      <item itemvalue="Python.tests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python.mogno_to_mysql" />
+        <item itemvalue="Python.run_dec" />
+        <item itemvalue="Python.tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4162ede-2689-4b18-9e50-3dfa7f6d2383" name="Default Changelist" comment="" />
+      <created>1560916303875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560916303875</updated>
+      <workItem from="1560916305329" duration="25867000" />
+      <workItem from="1561078862931" duration="598000" />
+      <workItem from="1561106282797" duration="2366000" />
+      <workItem from="1561338340631" duration="15173000" />
+      <workItem from="1561362492047" duration="79193000" />
+      <workItem from="1561703097274" duration="17121000" />
+      <workItem from="1561791476875" duration="17061000" />
+      <workItem from="1561941978154" duration="47444000" />
+      <workItem from="1562057414891" duration="2574000" />
+      <workItem from="1563499352646" duration="3684000" />
+      <workItem from="1565057628135" duration="12028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="223109000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" x="409" y="101" width="328" height="900" id="Project" order="2" visible="true" weight="0.13143776" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" side_tool="true" weight="0.32896304" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283237" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49839056" visible="true" weight="0.5092379" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.49784017" weight="0.42448512" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3272311" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50160944" side_tool="true" weight="0.41339493" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49784017" weight="0.5491991" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" sideWeight="0.49784017" weight="0.3283237" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49946353" weight="0.42263278" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="right" id="Database" order="5" side_tool="true" weight="0.3299356" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.98400855" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" side_tool="true" weight="0.32896304" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3283237" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.48152426" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50160944" side_tool="true" weight="0.41339493" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32794458" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49784017" weight="0.43533486" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49784017" visible="true" weight="0.42555556" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49784017" weight="0.3283237" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Run" order="14" sideWeight="0.49839056" weight="0.41339493" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="headers.get(&quot;DespDate&quot;)" language="Python" />
+        <watch expression="&quot; &quot;.join(['scrapy', 'crawl', '-a', f'input_date={input_date}', '-a', f'is_today={is_today}', 'dw_dec'])" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>&quot; &quot;.join(['scrapy', 'crawl', '-a', f'input_date={input_date}', '-a', f'is_today={is_today}', 'dw_dec'])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isinstance(item, NemsspiderItem)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isinstance(item, DecspiderItem)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isinstance(item, NemsspiderItem):</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>headers.get(&quot;DespDate&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>headers.get(&quot;ciqEntyPortCode&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>headers.get(&quot;despPortCode&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(data.get(&quot;rows&quot;))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(data)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.start_urls.format(params)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-06-27.log" />
+    <entry file="file://D:/virtualenv/spider3.6/Lib/site-packages/redis/client.py" />
+    <entry file="file://D:/virtualenv/spider3.6/Lib/site-packages/twisted/internet/defer.py" />
+    <entry file="file://D:/virtualenv/spider3.6/Lib/site-packages/scrapy/crawler.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/__init__.pyi" />
+    <entry file="file://D:/virtualenv/spider3.6/Lib/site-packages/scrapy/spiders/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-06-26.log" />
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-06-28.log" />
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-06-29.log" />
+    <entry file="file://$PROJECT_DIR$/logs/task.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/spider/Lib/site-packages/scrapy/http/request/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/NemsSpider/utils/log_handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-07-01.log" />
+    <entry file="file://D:/virtualenv/spider3.6/Lib/site-packages/pymongo/helpers.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NemsSpider/utils/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#74#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-07-02.log" />
+    <entry file="file://$PROJECT_DIR$/NemsSpider/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-07-03.log" />
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-07-10.log" />
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-07-11.log" />
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-07-12.log" />
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-07-13.log" />
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-06-30.log" />
+    <entry file="file://$PROJECT_DIR$/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          <folding>
+            <element signature="e#125#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NemsSpider/utils/redis_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NemsSpider/utils/mysql_data.py" />
+    <entry file="file://$PROJECT_DIR$/NemsSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mogno_to_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#124#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-08-06.log" />
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-08-07.log" />
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-08-08.log" />
+    <entry file="file://$PROJECT_DIR$/NemsSpider/utils/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#124#1" />
+            <element signature="e#776#1046#0" />
+            <element signature="e#1185#1682#0" />
+            <element signature="e#1185#1286#1" />
+            <element signature="e#1722#1952#0" />
+            <element signature="e#1994#4638#0" />
+            <element signature="e#4685#5678#0" />
+            <element signature="e#5716#5786#0" />
+            <element signature="e#5937#6307#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-08-21.log" />
+    <entry file="file://$PROJECT_DIR$/run.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-08-30.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="1433" column="91" lean-forward="true" selection-start-line="1433" selection-start-column="91" selection-end-line="1433" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-08-28.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-08-22.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NemsSpider/spiders/nems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#696#841#0" />
+            <element signature="e#963#1384#0" />
+            <element signature="e#1101#1384#0" />
+            <element signature="e#1256#1384#0" />
+            <element signature="e#1784#1986#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NemsSpider/utils/aniusql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="189" column="42" selection-start-line="189" selection-start-column="39" selection-end-line="189" selection-end-column="42" />
+          <folding>
+            <element signature="e#215#408#0" />
+            <element signature="e#243#312#0" />
+            <element signature="e#345#408#0" />
+            <element signature="e#473#613#0" />
+            <element signature="e#673#832#0" />
+            <element signature="e#879#930#0" />
+            <element signature="e#970#2162#0" />
+            <element signature="e#1067#2091#0" />
+            <element signature="e#1071#1600#0" />
+            <element signature="e#1634#1806#0" />
+            <element signature="e#1843#2091#0" />
+            <element signature="e#2195#2296#0" />
+            <element signature="e#2350#2788#0" />
+            <element signature="e#2867#4046#0" />
+            <element signature="e#2867#2969#1" />
+            <element signature="e#3179#3605#0" />
+            <element signature="e#3314#3605#0" />
+            <element signature="e#3434#3605#0" />
+            <element signature="e#4079#4083#0" />
+            <element signature="e#4171#4427#1" />
+            <element signature="e#4631#5837#0" />
+            <element signature="e#4715#5837#0" />
+            <element signature="e#4752#5059#0" />
+            <element signature="e#5102#5837#0" />
+            <element signature="e#5135#5462#0" />
+            <element signature="e#5513#5837#0" />
+            <element signature="e#6003#6356#0" />
+            <element signature="e#6205#6356#0" />
+            <element signature="e#6383#6527#0" />
+            <element signature="e#7106#7328#0" />
+            <element signature="e#7384#9197#0" />
+            <element signature="e#7506#9007#0" />
+            <element signature="e#7603#9007#0" />
+            <element signature="e#7708#8077#0" />
+            <element signature="e#7744#7989#0" />
+            <element signature="e#8120#9007#0" />
+            <element signature="e#8155#8548#0" />
+            <element signature="e#8195#8452#0" />
+            <element signature="e#8599#9007#0" />
+            <element signature="e#8639#8906#0" />
+            <element signature="e#9243#9562#0" />
+            <element signature="e#9424#9543#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_dec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+          <folding>
+            <element signature="e#125#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NemsSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="211" column="35" selection-start-line="211" selection-start-column="35" selection-end-line="211" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NemsSpider/nems_join.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="261" column="42" selection-start-line="261" selection-start-column="42" selection-end-line="261" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/task.2019-10-13.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213710" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_nems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NemsSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="67" column="48" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#882#948#0" />
+            <element signature="e#1087#1139#0" />
+            <element signature="e#1947#1977#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-656">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="e#125#140#0" expanded="true" />
+            <element signature="e#3145#4033#0" />
+            <element signature="e#4078#4968#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NemsSpider/spiders/dec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="152" column="102" lean-forward="true" selection-start-line="152" selection-start-column="77" selection-end-line="152" selection-end-column="102" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NemsSpider/spiders/dw_dec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="152" column="106" selection-start-line="152" selection-start-column="106" selection-end-line="152" selection-end-column="106" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#992#1413#0" />
+            <element signature="e#1497#1997#0" />
+            <element signature="e#2174#2498#0" />
+            <element signature="e#2990#3207#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

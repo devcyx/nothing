@@ -1,0 +1,21 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="hyperlink" />
+            <item index="1" class="java.lang.String" itemvalue="Automat" />
+            <item index="2" class="java.lang.String" itemvalue="lxml" />
+            <item index="3" class="java.lang.String" itemvalue="PyHamcrest" />
+            <item index="4" class="java.lang.String" itemvalue="zope.interface" />
+            <item index="5" class="java.lang.String" itemvalue="incremental" />
+            <item index="6" class="java.lang.String" itemvalue="constantly" />
+            <item index="7" class="java.lang.String" itemvalue="attrs" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
