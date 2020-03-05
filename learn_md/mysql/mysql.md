@@ -104,12 +104,14 @@ REVOKE privilege ON databasename.tablename FROM 'username'@'host';
 
 ### 存储的过程的创建
 
+  ```sql
   CREATE PROCEDURE name(params,)
   begin
     -- sql 语句
   end;
 
   delimiter 分隔符（终止符） 将默认的；修改为你想要的（主要是在存储过程中 写 sql 的时候 会把；识别为终止符）
+  ```
 
 ### 存储的过程的调用
 
@@ -139,11 +141,12 @@ REVOKE privilege ON databasename.tablename FROM 'username'@'host';
 ```
 
 #### if
-
+  ```sql
   if xxx then xxx
   elseif xxx then xxx
   else xxx
   end if;
+  ```
 
 #### 输入输出
 
@@ -217,11 +220,11 @@ REVOKE privilege ON databasename.tablename FROM 'username'@'host';
 
   ```sql
   -- 声明接收字段的变量和终止条件的变量
-  declare 字段名 类型;
+  declare 字段名 类型; --这里的字段名跟下面 select 语句中的字段名不能重复
   declare has_data int default 1;
   -- 声明一个游标
   declare cursor_name cursor for select 字段名 from table_name;
-  declare exit handler for not fand set has_data=0; -- 终止条件的声明 如果要用循环fetch来做的话
+  declare exit handler for not found set has_data=0; -- 终止条件的声明 如果要用循环fetch来做的话
 
   open cursor_name; -- 打开游标
 
@@ -244,6 +247,7 @@ begin
   return data_name;
 end
 ```
+调用存储函数 select func_name;
 
 删除存储函数 drop function func_name;
 
@@ -897,50 +901,58 @@ select * from emp where name regexp '[uvw]';
 语法 ：
 
 ```
+
 mysql [options] [database]
+
 ```
 
 ### 连接选项
 
 ```
-参数 ： 
+
+参数 ：
 	-u, --user=name			指定用户名
 	-p, --password[=name]	指定密码
-	-h, --host=name			指定服务器IP或域名
+	-h, --host=name			指定服务器 IP 或域名
 	-P, --port=#			指定连接端口
 
 示例 ：
 	mysql -h 127.0.0.1 -P 3306 -u root -p
-	
+
 	mysql -h127.0.0.1 -P3306 -uroot -p2143
-	
+
 ```
 
 ### 执行选项
 
 ```
--e, --execute=name		执行SQL语句并退出
+
+-e, --execute=name		执行 SQL 语句并退出
+
 ```
 
 此选项可以在Mysql客户端执行SQL语句，而不用连接到MySQL数据库再执行，对于一些批处理脚本，这种方式尤其方便。
 
 ```
+
 示例：
 	mysql -uroot -p2143 db01 -e "select * from tb_book";
+
 ```
 ## mysqladmin
 
-  
+
 mysqladmin 是一个执行管理操作的客户端程序。可以用它来检查服务器的配置和当前状态、创建并删除数据库等。
 
 可以通过 ： mysqladmin --help  指令查看帮助文档
 
 ```
+
 示例 ：
-	mysqladmin -uroot -p2143 create 'test01';  
+	mysqladmin -uroot -p2143 create 'test01';
 	mysqladmin -uroot -p2143 drop 'test01';
 	mysqladmin -uroot -p2143 version;
-	
+
 ```
 
 ## mysqlbinlog
@@ -950,21 +962,23 @@ mysqladmin 是一个执行管理操作的客户端程序。可以用它来检查
 语法 ：
 
 ```
+
 mysqlbinlog [options]  log-files1 log-files2 ...
 
 选项：
-	
+
 	-d, --database=name : 指定数据库名称，只列出指定的数据库相关操作。
-	
-	-o, --offset=# : 忽略掉日志中的前n行命令。
-	
+
+	-o, --offset=# : 忽略掉日志中的前 n 行命令。
+
 	-r,--result-file=name : 将输出的文本格式日志输出到指定文件。
-	
+
 	-s, --short-form : 显示简单格式， 省略掉一些信息。
-	
+
 	--start-datatime=date1  --stop-datetime=date2 : 指定日期间隔内的所有日志。
-	
+
 	--start-position=pos1 --stop-position=pos2 : 指定位置间隔内的所有日志。
+
 ```
 
 ##  mysqldump
@@ -974,43 +988,51 @@ mysqldump 客户端工具用来备份数据库或在不同数据库之间进行�
 语法 ：
 
 ```
+
 mysqldump [options] db_name [tables]
 
 mysqldump [options] --database/-B db1 [db2 db3...]
 
 mysqldump [options] --all-databases/-A
+
 ```
 
 ### 连接选项
 
 ```
-参数 ： 
+
+参数 ：
 	-u, --user=name			指定用户名
 	-p, --password[=name]	指定密码
-	-h, --host=name			指定服务器IP或域名
+	-h, --host=name			指定服务器 IP 或域名
 	-P, --port=#			指定连接端口
+
 ```
 
 ###  输出内容选项
 
 ```
+
 参数：
 	--add-drop-database		在每个数据库创建语句前加上 Drop database 语句
 	--add-drop-table		在每个表创建语句前加上 Drop table 语句 , 默认开启 ; 不开启 (--skip-add-drop-table)
-	
+
 	-n, --no-create-db		不包含数据库的创建语句
 	-t, --no-create-info	不包含数据表的创建语句
 	-d --no-data			不包含数据
-	
-	 -T, --tab=name			自动生成两个文件：一个.sql文件，创建表结构的语句；
-	 						一个.txt文件，数据文件，相当于select into outfile  
+
+	 -T, --tab=name			自动生成两个文件：一个。sql 文件，创建表结构的语句；
+	 						一个。txt 文件，数据文件，相当于 select into outfile
+
 ```
 
 ```
-示例 ： 
+
+示例 ：
 	mysqldump -uroot -p2143 db01 tb_book --add-drop-database --add-drop-table > a
-	
+
 	mysqldump -uroot -p2143 -T /tmp test city
+
 ```
 
 ## mysqlimport/source
@@ -1020,21 +1042,27 @@ mysqlimport 是客户端数据导入工具，用来导入mysqldump 加 -T 参数
 语法：
 
 ```
+
 mysqlimport [options]  db_name  textfile1  [textfile2...]
+
 ```
 
 示例：
 
 ```
+
 mysqlimport -uroot -p2143 test /tmp/city.txt
-```
-
-
-
-如果需要导入sql文件,可以使用mysql中的source 指令 : 
 
 ```
+
+
+
+如果需要导入sql文件,可以使用mysql中的source 指令 :
+
+```
+
 source /root/tb_book.sql
+
 ```
 
 ## mysqlshow
@@ -1044,15 +1072,19 @@ mysqlshow 客户端对象查找工具，用来很快地查找存在哪些数据�
 语法：
 
 ```
+
 mysqlshow [options] [db_name [table_name [col_name]]]
+
 ```
 
 参数：
 
 ```
+
 --count		显示数据库及表的统计信息（数据库，表 均可以不指定）
 
 -i			显示指定数据库或者指定表的状态信息
+
 ```
 
 
@@ -1060,13 +1092,17 @@ mysqlshow [options] [db_name [table_name [col_name]]]
 示例：
 
 ```
-#查询每个数据库的表的数量及表中记录的数量
+
+# 查询每个数据库的表的数量及表中记录的数量
+
 mysqlshow -uroot -p2143 --count
 
-#查询test库中每个表中的字段书，及行数
+# 查询 test 库中每个表中的字段书，及行数
+
 mysqlshow -uroot -p2143 test --count
 
-#查询test库中book表的详细情况
+# 查询 test 库中 book 表的详细情况
+
 mysqlshow -uroot -p2143 test book --count
 
 ```
@@ -1081,34 +1117,41 @@ mysqlshow -uroot -p2143 test book --count
 
 该日志是默认开启的 ， 默认存放目录为 mysql 的数据目录（var/lib/mysql）, 默认的日志文件名为  hostname.err（hostname是主机名）。
 
-查看日志位置指令 ： 
+查看日志位置指令 ：
 
 ```sql
+
 show variables like 'log_error%';
+
 ```
 
 
-查看日志内容 ： 
+查看日志内容 ：
 
 ```shell
+
 tail -f /var/lib/mysql/xaxh-server.err
+
 ```
 
 ### 二进制日志
 
 二进制日志（BINLOG）记录了所有的 DDL（数据定义语言）语句和 DML（数据操纵语言）语句，但是不包括数据查询语句。此日志对于灾难时的数据恢复起着极其重要的作用，MySQL的主从复制， 就是通过该binlog实现的。
 
-二进制日志，默认情况下是没有开启的，需要到MySQL的配置文件中开启，并配置MySQL日志的格式。 
+二进制日志，默认情况下是没有开启的，需要到MySQL的配置文件中开启，并配置MySQL日志的格式。
 
 配置文件位置 : /usr/my.cnf
 
 日志存放位置 : 配置时，给定了文件名但是没有指定路径，日志默认写入Mysql的数据目录。
 
 ```
-#配置开启binlog日志， 日志的文件前缀为 mysqlbin -----> 生成的文件名如 : mysqlbin.000001,mysqlbin.000002
+
+# 配置开启 binlog 日志， 日志的文件前缀为 mysqlbin -----> 生成的文件名如 : mysqlbin.000001,mysqlbin.000002
+
 log_bin=mysqlbin
 
-#配置二进制日志的格式
+# 配置二进制日志的格式
+
 binlog_format=STATEMENT
 
 ```
@@ -1138,16 +1181,19 @@ binlog_format=STATEMENT
 由于日志以二进制方式存储，不能直接读取，需要用mysqlbinlog工具来查看，语法如下 ：
 
 ```
+
 mysqlbinlog log-file；
 
 ```
 
-**查看STATEMENT格式日志** 
+**查看STATEMENT格式日志**
 
 执行插入语句 ：
 
 ```SQL
+
 insert into tb_book values(null,'Lucene','2088-05-01','0');
+
 ```
 
  查看日志文件 ：
@@ -1160,6 +1206,7 @@ mysqlbing.000001 ：日志文件
 查看日志内容 ：
 
 ```
+
 mysqlbinlog mysqlbing.000001；
 
 ```
@@ -1170,10 +1217,13 @@ mysqlbinlog mysqlbing.000001；
 配置 :
 
 ```
-#配置开启binlog日志， 日志的文件前缀为 mysqlbin -----> 生成的文件名如 : mysqlbin.000001,mysqlbin.000002
+
+# 配置开启 binlog 日志， 日志的文件前缀为 mysqlbin -----> 生成的文件名如 : mysqlbin.000001,mysqlbin.000002
+
 log_bin=mysqlbin
 
-#配置二进制日志的格式
+# 配置二进制日志的格式
+
 binlog_format=ROW
 
 ```
@@ -1181,13 +1231,17 @@ binlog_format=ROW
 插入数据 :
 
 ```sql
-insert into tb_book values(null,'SpringCloud实战','2088-05-05','0');
+
+insert into tb_book values(null,'SpringCloud 实战','2088-05-05','0');
+
 ```
 
-如果日志格式是 ROW , 直接查看数据 , 是查看不懂的 ; 可以在mysqlbinlog 后面加上参数 -vv  
+如果日志格式是 ROW , 直接查看数据 , 是查看不懂的 ; 可以在mysqlbinlog 后面加上参数 -vv
 
 ```SQL
-mysqlbinlog -vv mysqlbin.000002 
+
+mysqlbinlog -vv mysqlbin.000002
+
 ```
 
 
@@ -1196,16 +1250,18 @@ mysqlbinlog -vv mysqlbin.000002
 
 对于比较繁忙的系统，由于每天生成日志量大 ，这些日志如果长时间不清楚，将会占用大量的磁盘空间。下面我们将会讲解几种删除日志的常见方法 ：
 
-**方式一** 
+**方式一**
 
 通过 Reset Master 指令删除全部 binlog 日志，删除之后，日志编号，将从 xxxx.000001重新开始 。
 
-查询之前 ，先查询下日志文件 ： 
+查询之前 ，先查询下日志文件 ：
 
-执行删除日志指令： 
+执行删除日志指令：
 
 ```
+
 Reset Master
+
 ```
 
 执行之后， 查看日志文件 ：
@@ -1214,7 +1270,7 @@ Reset Master
 
 **方式二**
 
-执行指令 ``` purge  master logs to 'mysqlbin.******'``` ，该命令将删除  ``` ******``` 编号之前的所有日志。 
+执行指令 ``` purge  master logs to 'mysqlbin.******'``` ，该命令将删除  ``` ******``` 编号之前的所有日志。
 
 
 
@@ -1228,9 +1284,9 @@ Reset Master
 
 设置参数 --expire_logs_days=# ，此参数的含义是设置日志的过期天数， 过了指定的天数后日志将会被自动删除，这样将有利于减少DBA 管理日志的工作量。
 
-配置如下 ： 
+配置如下 ：
 
-![1554125506938](assets/1554125506938.png) 
+![1554125506938](assets/1554125506938.png)
 
 
 
@@ -1241,35 +1297,39 @@ Reset Master
 默认情况下， 查询日志是未开启的。如果需要开启查询日志，可以设置以下配置 ：
 
 ```
-#该选项用来开启查询日志 ， 可选值 ： 0 或者 1 ； 0 代表关闭， 1 代表开启 
+
+# 该选项用来开启查询日志 ， 可选值 ： 0 或者 1 ； 0 代表关闭， 1 代表开启
+
 general_log=1
 
-#设置日志的文件名 ， 如果没有指定， 默认的文件名为 host_name.log 
+# 设置日志的文件名 ， 如果没有指定， 默认的文件名为 host_name.log
+
 general_log_file=file_name
 
 ```
 
-在 mysql 的配置文件 /usr/my.cnf 中配置如下内容 ： 
+在 mysql 的配置文件 /usr/my.cnf 中配置如下内容 ：
 
-![1554128184632](assets/1554128184632.png) 
+![1554128184632](assets/1554128184632.png)
 
 
 
 配置完毕之后，在数据库执行以下操作 ：
 
 ```
+
 select * from tb_book;
 select * from tb_book where id = 1;
-update tb_book set name = 'lucene入门指南' where id = 5;
+update tb_book set name = 'lucene 入门指南' where id = 5;
 select * from tb_book where id < 8;
 
 ```
 
 
 
-执行完毕之后， 再次来查询日志文件 ： 
+执行完毕之后， 再次来查询日志文件 ：
 
-![1554128089851](assets/1554128089851.png) 
+![1554128089851](assets/1554128089851.png)
 
 
 
@@ -1284,13 +1344,17 @@ select * from tb_book where id < 8;
 慢查询日志默认是关闭的 。可以通过两个参数来控制慢查询日志 ：
 
 ```
+
 # 该参数用来控制慢查询日志是否开启， 可取值： 1 和 0 ， 1 代表开启， 0 代表关闭
-slow_query_log=1 
+
+slow_query_log=1
 
 # 该参数用来指定慢查询日志的文件名
+
 slow_query_log_file=slow_query.log
 
-# 该选项用来配置查询的时间限制， 超过这个时间将认为值慢查询， 将需要进行日志记录， 默认10s
+# 该选项用来配置查询的时间限制， 超过这个时间将认为值慢查询， 将需要进行日志记录， 默认 10s
+
 long_query_time=10
 
 ```
@@ -1307,7 +1371,9 @@ long_query_time=10
 2） 执行查询操作
 
 ```sql
+
 select id, title,price,num ,status from tb_item where id = 1;
+
 ```
 
 由于该语句执行时间很短，为0s ， 所以不会记录在慢查询日志中。
@@ -1315,7 +1381,8 @@ select id, title,price,num ,status from tb_item where id = 1;
 
 
 ```
-select * from tb_item where title like '%阿尔卡特 (OT-927) 炭黑 联通3G手机 双卡双待165454%' ;
+
+select * from tb_item where title like '% 阿尔卡特 (OT-927) 炭黑 联通 3G 手机 双卡双待 165454%' ;
 
 ```
 
@@ -1325,10 +1392,10 @@ select * from tb_item where title like '%阿尔卡特 (OT-927) 炭黑 联通3G�
 
 3） 查看慢查询日志文件
 
-直接通过cat 指令查询该日志文件 ： 
+直接通过cat 指令查询该日志文件 ：
 
 
-如果慢查询日志内容很多， 直接查看文件，比较麻烦， 这个时候可以借助于mysql自带的 mysqldumpslow 工具， 来对慢查询日志进行分类汇总。 
+如果慢查询日志内容很多， 直接查看文件，比较麻烦， 这个时候可以借助于mysql自带的 mysqldumpslow 工具， 来对慢查询日志进行分类汇总。
 
 
 
@@ -1344,7 +1411,7 @@ MySQL支持一台主库同时向多台从库进行复制， 从库同时也可�
 
 MySQL 的主从复制原理如下。
 
-![1554423698190](assets/1.jpg) 
+![1554423698190](assets/1.jpg)
 
 从上层来看，复制分成三步：
 
@@ -1374,60 +1441,79 @@ MySQL 复制的有点主要包含以下三个方面：
 1） 在master 的配置文件（/usr/my.cnf）中，配置如下内容：
 
 ```properties
-#mysql 服务ID,保证整个集群环境中唯一
+
+# mysql 服务 ID, 保证整个集群环境中唯一
+
 server-id=1
 
-#mysql binlog 日志的存储路径和文件名
+# mysql binlog 日志的存储路径和文件名
+
 log-bin=/var/lib/mysql/mysqlbin
 
-#错误日志,默认已经开启
-#log-err
+# 错误日志，默认已经开启
 
-#mysql的安装目录
-#basedir
+# log-err
 
-#mysql的临时目录
-#tmpdir
+# mysql 的安装目录
 
-#mysql的数据存放目录
-#datadir
+# basedir
 
-#是否只读,1 代表只读, 0 代表读写
+# mysql 的临时目录
+
+# tmpdir
+
+# mysql 的数据存放目录
+
+# datadir
+
+# 是否只读，1 代表只读，0 代表读写
+
 read-only=0
 
-#忽略的数据, 指不需要同步的数据库
+# 忽略的数据，指不需要同步的数据库
+
 binlog-ignore-db=mysql
 
-#指定同步的数据库
-#binlog-do-db=db01
+# 指定同步的数据库
+
+# binlog-do-db=db01
+
 ```
 
 2） 执行完毕之后，需要重启Mysql：
 
 ```sql
+
 service mysql restart ；
+
 ```
 
 3） 创建同步数据的账户，并且进行授权操作：
 
 ```sql
-grant replication slave on *.* to 'itcast'@'192.168.192.131' identified by 'itcast';	
+
+grant replication slave on *.* to 'itcast'@'192.168.192.131' identified by 'itcast';
 
 flush privileges;
+
 ```
 
 4） 查看master状态：
 
 ```sql
+
 show master status;
+
 ```
 
 字段含义：
 
 ```
-File : 从哪个日志文件开始推送日志文件 
+
+File : 从哪个日志文件开始推送日志文件
 Position ： 从哪个位置开始推送日志
 Binlog_Ignore_DB : 指定不需要同步的数据库
+
 ```
 
 
@@ -1437,23 +1523,31 @@ Binlog_Ignore_DB : 指定不需要同步的数据库
 1） 在 slave 端配置文件中，配置如下内容：
 
 ```properties
-#mysql服务端ID,唯一
+
+# mysql 服务端 ID, 唯一
+
 server-id=2
 
-#指定binlog日志
+# 指定 binlog 日志
+
 log-bin=/var/lib/mysql/mysqlbin
+
 ```
 
 2）  执行完毕之后，需要重启Mysql：
 
 ```
+
 service mysql restart；
+
 ```
 
 3） 执行如下指令 ：
 
 ```sql
+
 change master to master_host= '192.168.192.130', master_user='itcast', master_password='itcast', master_log_file='mysqlbin.000001', master_log_pos=413;
+
 ```
 
 指定当前从库对应的主库的IP地址，用户名，密码，从哪个日志文件开始的那个位置开始同步推送日志。
@@ -1461,15 +1555,19 @@ change master to master_host= '192.168.192.130', master_user='itcast', master_pa
 4） 开启同步操作
 
 ```
+
 start slave;
 
 show slave status;
+
 ```
 
 5） 停止同步操作
 
 ```
+
 stop slave;
+
 ```
 
 
@@ -1479,6 +1577,7 @@ stop slave;
 1） 在主库中创建数据库，创建表，并插入数据 ：
 
 ```sql
+
 create database db01;
 
 user db01;
@@ -1493,6 +1592,7 @@ create table user(
 insert into user(id,name,sex) values(null,'Tom','1');
 insert into user(id,name,sex) values(null,'Trigger','0');
 insert into user(id,name,sex) values(null,'Dawn','1');
+
 ```
 
 2） 在从库中查询数据，进行验证
